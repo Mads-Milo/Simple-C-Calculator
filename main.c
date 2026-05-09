@@ -57,7 +57,7 @@ int main()
         multiply(a, b);
     }
 
-    system("pause");
+    system("\npause");
 
     return 0;
 }
