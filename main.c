@@ -9,19 +9,19 @@ Made by https://github.com/Mads-Milo
 // Addition
 void add(int a, int b)
 {
-    printf("%d", a + b);
+    printf("%d\n", a + b);
 }
 
 // Subtraction
 void subtract(int a, int b)
 {
-    printf("%d", a - b);
+    printf("%d\n", a - b);
 }
 
 // Mulitiplication
 void multiply(int a, int b)
 {
-    printf("%d", a * b);
+    printf("%d\n", a * b);
 }
 
 int main()
@@ -57,7 +57,7 @@ int main()
         multiply(a, b);
     }
 
-    system("\npause");
+    system("pause");
 
     return 0;
 }
